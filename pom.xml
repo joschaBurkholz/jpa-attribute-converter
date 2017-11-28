@@ -8,6 +8,10 @@
     <artifactId>jpa-attribute-converter</artifactId>
     <version>DEV-SNAPSHOT</version>
 
+    <name>jpa-attribute-converter</name>
+    <description>API that provides JPA converters</description>
+    <packaging>pom</packaging>
+
     <properties>
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
