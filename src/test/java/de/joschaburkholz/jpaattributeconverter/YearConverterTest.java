@@ -1,4 +1,4 @@
-package de.joscha_burkholz.jpa_attribute_converter;
+package de.joschaburkholz.jpaattributeconverter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;

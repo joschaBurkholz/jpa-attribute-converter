@@ -1,4 +1,4 @@
-package de.joscha_burkholz.jpa_attribute_converter;
+package de.joschaburkholz.jpaattributeconverter;
 
 import java.time.Year;
 
@@ -20,7 +20,7 @@ public class YearConverter implements AttributeConverter<Year, String> {
     }
 
     @Override
-    public Year convertToEntityAttribute(String dbData) throws IllegalArgumentException {
+    public Year convertToEntityAttribute(String dbData) {
         if(dbData == null){
             return null;
         }
