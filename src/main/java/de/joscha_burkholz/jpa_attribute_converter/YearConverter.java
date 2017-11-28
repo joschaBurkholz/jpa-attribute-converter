@@ -3,10 +3,12 @@ package de.joscha_burkholz.jpa_attribute_converter;
 import java.time.Year;
 
 import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Converter
 public class YearConverter implements AttributeConverter<Year, String> {
 
     @Override
